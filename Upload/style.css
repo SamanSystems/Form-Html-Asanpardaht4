@@ -1,0 +1,92 @@
+﻿/**
+  * Designed By RezaStops
+  */
+
+@font-face  {
+  font-family: 'BYekan';
+  src: url('fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+       url('fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+* {
+    font-family:BYekan;
+    font-size:13px;
+    direction:rtl;
+}
+a {
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    line-height: 1.42857;
+    background: #fff url("img/bg.png");
+    margin:0;
+    padding:0;
+}
+h1 {
+    font-size:28px;
+    text-align: center;
+    color: #2980b9;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+    font-weight: normal;
+}
+h2 {
+    font-size:18px;
+    text-align: center;
+    color: #2980b9;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+    font-weight: normal;
+    margin-bottom:35px;
+}
+.box {
+    padding: 30px 15px;
+    margin: 100px auto;
+    background: none repeat scroll 0% 0% #FFF;
+    width: 60%;
+    border: 4px solid #FAFAFA;
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.024), 0px -1px 1px rgba(0, 0, 0, 0.024);
+}
+#center {
+    margin: 1px auto;
+    width: 60%;
+}
+
+input, textarea, select {
+    border-radius: 3px;
+    border: 1px solid #CFCFCF;
+    background-color: #FFF;
+    font: 13px BYekan;
+    color: #000;
+    border-radius: 3px;
+    padding: 4px 9px;
+    height: 24px;
+    width: 93%;
+    margin: 5px auto;
+}
+.btn {
+    display:block;
+    margin: 30px auto;
+    width: 50%;
+    height:50px;
+    background: #2980b9 !important;
+    text-align: center;
+    color: #FFF;
+    font: 18px "BYekan",tahoma;
+    border: 0px none;
+    background-clip: padding-box;
+    box-shadow: 0px -4px 0px rgba(1, 1, 1, 0.22) inset;
+    outline: 0px none;
+    border: 1px solid #CFCFCF;
+    border-radius: 3px;
+}
+
+.btn:active {
+    border: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.22) inset;
+}
+.footer , .footer a{
+    text-align:center;
+    color: #A4ABBA;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+}

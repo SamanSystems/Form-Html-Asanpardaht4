@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="/favicon.ico" type="image/x-icon" rel="icon" />
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> آسان پرداخت زرین پال </title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href="img/favicon.ico" type="image/x-icon" rel="icon" />
+<link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+</head>
+<body>
+<div class="box">
+<h1>آسان پرداخت زرین پال </h1>
+<h2>با بیشترین سرعت و امنیت صورتحساب های خود را پرداخت کنید.</h2>
+
+<form action="https://www.zarinpal.com/webservice/Simplepay" method="post" id="TransactionAddForm">
+
+<!-- Shomare Kif pool Khod ra bejaye zp.104408 dar zir vared konid. -->
+<input type="hidden" id="TransactionAccountID" value="zp.104408" name="data[Transaction][account_id]" />
+
+<!-- Urli ke baed az kharid be an barmigardad ra bejaye rezastops.ir dar zir gharar dahid. -->
+<input type="hidden" id="TransactionRedirectUrl" value="http://rezastops.ir/" name="data[Transaction][redirect_url]" />
+
+<div id="center">
+<input type="text" id="TransactionDesc" value="" placeholder="قصد خریداری چه محصولی را دارید؟" name="data[Transaction][desc]" />
+<input type="text" id="TransactionAmount" value="" placeholder="بهای محصول مورد نظر را وارد کنید. ( بیش از 100 تومان )" name="data[Transaction][amount]" />
+</div>
+<input  class="btn" value="پرداخت آنلاین از طریق زرین پال" type="submit" />
+</form>
+
+<div class="footer">طراحی شده توسط  <a href="http://rezastops.ir/" rel="follow" target="_blank">رضا شیرازی </a> ، قدرت گرفته از <a href="https://zarinpal.com/" rel="follow"  target="_blank">زرین پال </a></div>
+</div>
+</body>
+</html>
